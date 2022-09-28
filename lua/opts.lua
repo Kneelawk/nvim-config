@@ -1,6 +1,5 @@
 -- opts.lua -- Configures general vim options.
 local opt = vim.opt
-local cmd = vim.api.nvim_command
 
 -- Context
 opt.colorcolumn = '80'

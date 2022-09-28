@@ -4,7 +4,7 @@
 require('nvim-tree').setup {}
 
 -- Color theme
-cmd('colorscheme monokai')
+vim.cmd('colorscheme monokai')
 
 -- Lualine
 require('lualine').setup {
