@@ -2,7 +2,7 @@
 
 -- Treesitter
 require('nvim-treesitter.configs').setup {
-  ensure_installed = { "lua", "rust", "toml", "kotlin", "java", "python" },
+  ensure_installed = { "lua", "rust", "toml", "kotlin", "java", "python", "latex", "markdown" },
   auto_install = true,
   highlight = {
     enable = true,
