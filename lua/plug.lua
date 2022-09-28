@@ -64,6 +64,7 @@ return require('packer').startup {
       'nvim-treesitter/nvim-treesitter', -- Better syntax highlighting as well as some extra languages
       run = function() require('nvim-treesitter.install').update { with_sync = true } end
     }
+    use 'lervag/vimtex' -- VimTeX latex plugin
 
     -- Language Features
     use 'm-demare/hlargs.nvim' -- Highlight function arguments
