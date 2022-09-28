@@ -16,7 +16,6 @@ opt.fileencoding = 'utf8'
 -- Theme
 opt.syntax = "ON"
 opt.termguicolors = true
-cmd('colorscheme monokai')
 
 -- Search
 opt.ignorecase = true
