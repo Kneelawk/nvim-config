@@ -22,3 +22,9 @@ require('todo-comments').setup {}
 -- Language Options
 require('plug_opts_lang')
 
+-- Language-Server Options
+require('plug_opts_lsp')
+
+-- Autocomplete Options
+require('plug_opts_cmp')
+

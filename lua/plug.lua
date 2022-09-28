@@ -67,6 +67,29 @@ return require('packer').startup {
 
     -- Language Features
     use 'm-demare/hlargs.nvim' -- Highlight function arguments
+
+    -- LSP stuff
+    use 'williamboman/mason.nvim' -- Manages LSP servers
+    use 'williamboman/mason-lspconfig.nvim' -- Extra stuff for LSP servers
+    use 'neovim/nvim-lspconfig' -- LSP-Config stuff?
+    use 'simrat39/rust-tools.nvim' -- Handles rust LSP-Config settings
+    use 'folke/trouble.nvim' -- Single pannel with rust-analyzer output
+    use {
+      'saecki/crates.nvim',
+      requires = 'nvim-lua/plenary.nvim'
+    }
+
+    -- Completion stuff
+    use 'hrsh7th/nvim-cmp' -- Completion framework
+    use 'hrsh7th/cmp-nvim-lsp' -- LSP completion source
+
+    -- Completion sources
+    use 'hrsh7th/cmp-nvim-lua'
+    use 'hrsh7th/cmp-nvim-lsp-signature-help'
+    use 'hrsh7th/cmp-vsnip'
+    use 'hrsh7th/cmp-path'
+    use 'hrsh7th/cmp-buffer'
+    use 'hrsh7th/vim-vsnip'
   
     -- Finish Packer bootstrap
     if packer_bootstrap then
