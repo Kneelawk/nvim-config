@@ -3,6 +3,10 @@ local g = vim.g
 g.t_co = 256
 g.background = "dark"
 
+-- Remap Leader to <Space>
+g.mapleader = '<Space>'
+g.localleader = '<Space>'
+
 -- Nvim-Tree
 -- Disable netrm
 -- vim.g.loaded = 1
