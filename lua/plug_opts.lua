@@ -3,6 +3,9 @@
 -- Nvim-Tree
 require('nvim-tree').setup {}
 
+-- Color theme
+cmd('colorscheme monokai')
+
 -- Lualine
 require('lualine').setup {
   options = {
