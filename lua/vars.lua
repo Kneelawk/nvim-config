@@ -16,3 +16,7 @@ g.localleader = '<Space>'
 -- Force use of a Nerd font in Neovim-QT
 vim.o.guifont = "JetBrainsMono Nerd Font:h10"
 
+-- VimTeX
+-- Use Zathura
+g.vimtex_view_method = "zathura"
+
