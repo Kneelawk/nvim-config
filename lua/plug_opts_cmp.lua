@@ -57,6 +57,7 @@ cmp.setup {
     { name = 'vsnip', keyword_length = 2 },
     { name = 'calc' },
     { name = 'crates' },
+    { name = 'omni' },
   },
   window = {
     completion = cmp.config.window.bordered(),
@@ -72,6 +73,7 @@ cmp.setup {
         path = '🖫',
         nvim_lua = '',
         crates = '',
+        omni = 'α',
       }
       item.menu = menu_icon[entry.source.name]
       return item
